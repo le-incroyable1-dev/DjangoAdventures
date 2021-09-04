@@ -1,4 +1,4 @@
-___+"""
+"""
 Django settings for DjangoWebProject1 project.
 
 Based on by 'django-admin startproject' using Django 2.1.2.
