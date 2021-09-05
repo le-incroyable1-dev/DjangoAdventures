@@ -35,12 +35,24 @@
     <Compile Include="DjangoWebProject1\settings.py" />
     <Compile Include="DjangoWebProject1\urls.py" />
     <Compile Include="DjangoWebProject1\wsgi.py" />
+    <Compile Include="polls\admin.py" />
+    <Compile Include="polls\apps.py" />
+    <Compile Include="polls\migrations\__init__.py" />
+    <Compile Include="polls\models.py" />
+    <Compile Include="polls\tests.py" />
+    <Compile Include="polls\urls.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="polls\views.py" />
+    <Compile Include="polls\__init__.py" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="requirements.txt" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DjangoWebProject1\" />
+    <Folder Include="polls\" />
+    <Folder Include="polls\migrations\" />
   </ItemGroup>
   <ItemGroup>
     <Interpreter Include="env_djangowp1\">
