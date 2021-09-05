@@ -31,10 +31,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="manage.py" />
-    <Compile Include="DjangoWebProject1\__init__.py" />
-    <Compile Include="DjangoWebProject1\settings.py" />
-    <Compile Include="DjangoWebProject1\urls.py" />
-    <Compile Include="DjangoWebProject1\wsgi.py" />
+    <Compile Include="DjangoWebProject1_base\__init__.py" />
+    <Compile Include="DjangoWebProject1_base\settings.py" />
+    <Compile Include="DjangoWebProject1_base\urls.py" />
+    <Compile Include="DjangoWebProject1_base\wsgi.py" />
     <Compile Include="polls\admin.py" />
     <Compile Include="polls\apps.py" />
     <Compile Include="polls\migrations\__init__.py" />
@@ -50,7 +50,7 @@
     <Content Include="requirements.txt" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="DjangoWebProject1\" />
+    <Folder Include="DjangoWebProject1_base\" />
     <Folder Include="polls\" />
     <Folder Include="polls\migrations\" />
   </ItemGroup>
