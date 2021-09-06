@@ -52,6 +52,8 @@
     <Content Include="DjangoWebProject1\__pycache__\urls.cpython-39.pyc" />
     <Content Include="DjangoWebProject1\__pycache__\wsgi.cpython-39.pyc" />
     <Content Include="DjangoWebProject1\__pycache__\__init__.cpython-39.pyc" />
+    <Content Include="polls\templates\polls\detail.html" />
+    <Content Include="polls\templates\polls\index.html" />
     <Content Include="requirements.txt" />
   </ItemGroup>
   <ItemGroup>
@@ -59,6 +61,8 @@
     <Folder Include="DjangoWebProject1\__pycache__\" />
     <Folder Include="polls\" />
     <Folder Include="polls\migrations\" />
+    <Folder Include="polls\templates\" />
+    <Folder Include="polls\templates\polls\" />
   </ItemGroup>
   <ItemGroup>
     <Interpreter Include="env_djangowp1\">
