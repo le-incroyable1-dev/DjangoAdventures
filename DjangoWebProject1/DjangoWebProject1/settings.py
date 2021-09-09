@@ -26,6 +26,7 @@ SECRET_KEY = 'f322117b-f6d0-407a-9dfb-3d1d45f21eae'
 DEBUG = True
 
 ALLOWED_HOSTS = []
+# set this up properly if you set DEBUG = False
 
 # Application references
 # https://docs.djangoproject.com/en/2.1/ref/settings/#std:setting-INSTALLED_APPS
