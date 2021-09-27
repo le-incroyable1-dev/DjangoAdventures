@@ -5,6 +5,9 @@ from django.utils import timezone
 
 class Question(models.Model):
 
+    question_text = models.CharField(max_length=200)
+    pub_date = models.DateTimeField('date published')
+
     def __str__(self):
         return self.question_text
     #string methods are convinient; they allow you to see the question text when viewing the questions list
@@ -12,9 +15,6 @@ class Question(models.Model):
     def was_published_recently(self):
         return self.pub_date >= timezone.now() - datetime.timedelta(days=1)
     #custom method to check if the question was published in the last one day
-
-    question_text = models.CharField(max_length=200)
-    pub_date = models.DateTimeField('date published')
 
 
 class Choice(models.Model):
