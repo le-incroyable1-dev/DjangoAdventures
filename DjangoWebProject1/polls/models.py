@@ -28,7 +28,7 @@ class Choice(models.Model):
 
 
 """
-Following relationships “backward”¶
+Following relationships “backward”
 If a model has a ForeignKey, instances of the foreign-key model will 
 have access to a Manager that returns all instances of the first model. 
 By default, this Manager is named FOO_set, where FOO is the source model name, 
