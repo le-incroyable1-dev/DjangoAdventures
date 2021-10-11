@@ -3,7 +3,7 @@
 <ul>
 {% for choice in question.choice_set.all %}
     <li>{{ choice.choice_text }} -- {{ choice.votes }} vote{{ choice.votes|pluralize }}</li>
-    # pluralize is a filter that suffixes s (by default) iff there are multiple votes, else does nothing
+    <!--pluralize is a filter that suffixes s (by default) iff there are multiple votes, else does nothing-->
 {% endfor %}
 </ul>
 
