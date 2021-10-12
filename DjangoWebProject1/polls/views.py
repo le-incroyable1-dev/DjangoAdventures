@@ -20,11 +20,11 @@ class IndexView(generic.ListView):
 
 class DetailView(generic.DetailView):
     model = Question
-    template = 'polls/details.html'
+    template_name = 'polls/detail.html'
 
 class ResultsView(generic.DetailView):
     model = Question
-    template = 'polls/results.html'
+    template_name = 'polls/results.html'
 
 
 def vote(request, question_id):
